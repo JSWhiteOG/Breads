@@ -1,5 +1,5 @@
 const React = require('react')
-const Default = require('../layouts/Default')
+const Default = require('./layouts/default')
 
 function error ({bread}) {
   console.log(bread.name)
@@ -10,4 +10,4 @@ function error ({bread}) {
     )
 }
 
-module.exports = error
+module.exports = Error
